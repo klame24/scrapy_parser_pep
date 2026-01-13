@@ -1,0 +1,712 @@
+number,name,status
+0457,Notation For Positional-Only Parameters,Final
+0001,PEP Purpose and Guidelines,Active
+0579,Refactoring C functions and methods,Final
+0482,Literature Overview for Type Hints,Final
+0452,API for Cryptographic Hash Functions v2.0,Final
+0483,The Theory of Type Hints,Final
+0514,Python registration in the Windows registry,Active
+0588,GitHub Issues Migration Plan,Final
+0434,IDLE Enhancement Exception for All Branches,Active
+0430,Migrating to Python 3 as the default online documentation,Final
+0272,API for Block Encryption Algorithms v1.0,Final
+0394,The “python” Command on Unix-Like Systems,Active
+0399,Pure Python/C Accelerator Module Compatibility Requirements,Final
+0333,Python Web Server Gateway Interface v1.0,Final
+0287,reStructuredText Docstring Format,Active
+0290,Code Migration and Modernization,Active
+0246,Object Adaptation,Rejected
+0340,Anonymous Block Statements,Rejected
+3153,Asynchronous IO support,Superseded
+8015,Organization of the Python community,Rejected
+8013,The External Council Governance Model,Rejected
+8014,The Commons Governance Model,Rejected
+8012,The Community Governance Model,Rejected
+8011,Python Governance Model Lead by Trio of Pythonistas,Rejected
+8010,The Technical Leader Governance Model,Rejected
+3140,"str(container) should call str(item), not repr(item)",Rejected
+3152,Cofunctions,Rejected
+3133,Introducing Roles,Rejected
+3146,Merging Unladen Swallow into CPython,Withdrawn
+3126,Remove Implicit String Concatenation,Rejected
+3142,Add a “while” clause to generator expressions,Rejected
+3145,Asynchronous I/O For subprocess.Popen,Withdrawn
+3139,Cleaning out sys and the “interpreter” module,Rejected
+3136,Labeled break and continue,Rejected
+3001,Procedure for reviewing and improving standard library modules,Withdrawn
+3130,Access to Current Module/Class/Function,Rejected
+3128,BList: A Faster List-like Type,Rejected
+3125,Remove Backslash Continuation,Rejected
+3122,Delineation of the main module,Rejected
+3103,A Switch/Case Statement,Rejected
+3117,Postfix type declarations,Rejected
+2026,Calendar versioning for Python,Rejected
+0769,"Add a ‘default’ keyword argument to ‘attrgetter’, ‘itemgetter’ and ‘getitem’",Rejected
+0763,Limiting deletions on PyPI,Withdrawn
+0775,Make zlib required to build CPython,Withdrawn
+0736,Shorthand syntax for keyword arguments at invocation,Rejected
+0760,No More Bare Excepts,Withdrawn
+0759,External Wheel Hosting,Withdrawn
+0754,IEEE 754 Floating Point Special Values,Rejected
+0726,Module,Rejected
+0727,Documentation in Annotated Metadata,Withdrawn
+0724,Stricter Type Guards,Withdrawn
+0722,Dependency specification for single-file scripts,Rejected
+0704,Require virtual environments by default for package installers,Withdrawn
+0713,Callable Modules,Rejected
+0756,Add PyUnicode_Export() and PyUnicode_Import() C functions,Withdrawn
+0707,A simplified signature for __exit__ and __aexit__,Rejected
+0662,Editable installs via virtual wheels,Rejected
+0679,New assert statement syntax with parentheses,Rejected
+0690,Lazy Imports,Rejected
+0677,Callable Type Syntax,Rejected
+0665,A file format to list Python dependencies for reproducibility of an application,Rejected
+0666,Reject Foolish Indentation,Rejected
+0663,"Standardizing Enum str(), repr(), and format() behaviors",Rejected
+0712,Adding a “converter” parameter to dataclasses.field,Rejected
+0637,Support for indexing with keyword arguments,Rejected
+0651,Robust Stack Overflow Handling,Rejected
+0650,Specifying Installer Requirements for Python Projects,Withdrawn
+0648,Extensible customizations of the interpreter at startup,Rejected
+0645,Allow writing optional types as,Withdrawn
+0641,Using an underscore in the version portion of Python 3.10 compatibility tags,Rejected
+0642,Explicit Pattern Syntax for Structural Pattern Matching,Rejected
+0640,Unused variable syntax,Rejected
+0608,Coordinated Python release,Rejected
+0633,Dependency specification in pyproject.toml using an exploded TOML table,Rejected
+0622,Structural Pattern Matching,Superseded
+0631,Dependency specification in pyproject.toml based on PEP 508,Superseded
+0620,Hide implementation details from the C API,Withdrawn
+0611,The one million limit,Withdrawn
+0599,The manylinux2014 Platform Tag,Superseded
+0606,Python Compatibility Version,Rejected
+0605,A rolling feature release stream for CPython,Rejected
+0601,Forbid return/break/continue breaking out of finally,Rejected
+0575,Unifying function/method classes,Withdrawn
+0598,Introducing incremental feature releases,Withdrawn
+0595,Improving bugs.python.org,Withdrawn
+0583,A Concurrency Memory Model for Python,Withdrawn
+0582,Python local packages directory,Rejected
+0580,The C call protocol,Rejected
+0577,Augmented Assignment Expressions,Withdrawn
+0576,Rationalize Built-in function classes,Withdrawn
+0563,Postponed Evaluation of Annotations,Superseded
+0571,The manylinux2010 Platform Tag,Superseded
+0554,Multiple Interpreters in the Stdlib,Superseded
+0550,Execution Context,Withdrawn
+0559,Built-in noop(),Rejected
+0555,Context-local variables (contextvars),Withdrawn
+0558,Defined semantics for locals(),Withdrawn
+0551,Security transparency in the Python runtime,Withdrawn
+0549,Instance Descriptors,Rejected
+0546,Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7,Rejected
+0548,More Flexible Loop Control,Rejected
+0522,Allow BlockingIOError in security sensitive APIs,Rejected
+0543,A Unified TLS API for Python,Withdrawn
+0542,Dot Notation Assignment In Function Header,Rejected
+0536,Final Grammar for Literal String Interpolation,Withdrawn
+0531,Existence checking operators,Withdrawn
+0521,Managing global context via ‘with’ blocks in generators and coroutines,Withdrawn
+0516,Build system abstraction for pip/conda etc,Rejected
+0511,API for code transformers,Rejected
+0513,A Platform Tag for Portable Linux Built Distributions,Superseded
+0504,Using the System RNG by default,Withdrawn
+0510,Specialize functions with guards,Rejected
+0509,Add a private version to dict,Superseded
+0507,Migrate CPython to Git and GitLab,Rejected
+0502,String Interpolation - Extended Discussion,Rejected
+0474,Creating forge.python.org,Withdrawn
+0496,Environment Markers,Rejected
+0497,A standard mechanism for backward compatibility,Rejected
+0500,A protocol for delegating datetime methods to their tzinfo implementations,Rejected
+0501,General purpose template literal strings,Withdrawn
+0490,Chain exceptions at C level,Rejected
+0481,"Migrate CPython to Git, Github, and Phabricator",Withdrawn
+0473,Adding structured data to built-in exceptions,Rejected
+0455,Adding a key-transforming dictionary to collections,Rejected
+0463,Exception-catching expressions,Rejected
+0460,Add binary interpolation and formatting,Withdrawn
+0469,Migration of dict iteration code to Python 3,Withdrawn
+0459,Standard Metadata Extensions for Python Software Packages,Withdrawn
+0472,Support for indexing with keyword arguments,Rejected
+0439,Inclusion of implicit pip bootstrap in Python installation,Rejected
+0433,Easier suppression of file descriptor inheritance,Superseded
+0432,Restructuring the CPython startup sequence,Withdrawn
+0462,Core development workflow automation for CPython,Withdrawn
+0416,Add a frozendict builtin type,Rejected
+0431,Time zone support improvements,Superseded
+0437,"A DSL for specifying signatures, annotations and argument converters",Rejected
+0426,Metadata for Python Software Packages 2.0,Withdrawn
+0401,BDFL Retirement,April Fool!
+0422,Simpler customisation of class creation,Withdrawn
+0413,Faster evolution of the Python Standard Library,Withdrawn
+0411,Provisional packages in the Python standard library,Superseded
+0408,Standard library __preview__ package,Rejected
+0406,Improved Encapsulation of Import State,Withdrawn
+0410,Use decimal.Decimal type for timestamps,Rejected
+0381,Mirroring infrastructure for PyPI,Withdrawn
+0402,Simplified Package Layout and Partitioning,Rejected
+0396,Module Version Numbers,Withdrawn
+0395,Qualified Names for Modules,Withdrawn
+0390,Static metadata for Distutils,Rejected
+0382,Namespace Packages,Rejected
+0386,Changing the version comparison module in Distutils,Superseded
+0379,Adding an Assignment Expression,Withdrawn
+0363,Syntax For Dynamic Attribute Access,Rejected
+0377,Allow __enter__() methods to skip the statement body,Rejected
+0369,Post import hooks,Withdrawn
+0367,New Super,Superseded
+0365,Adding the pkg_resources module,Rejected
+0364,Transitioning to the Py3K Standard Library,Withdrawn
+0349,Allow str() to return unicode strings,Rejected
+0359,The “make” Statement,Withdrawn
+0354,Enumerations in Python,Superseded
+0355,Path - Object oriented filesystem paths,Rejected
+0351,The freeze protocol,Rejected
+0350,Codetags,Rejected
+0336,Make None Callable,Rejected
+0346,User Defined (”,Withdrawn
+0345,Metadata for Python Software Packages 1.2,Superseded
+0344,Exception Chaining and Embedded Tracebacks,Superseded
+0335,Overloadable Boolean Operators,Rejected
+0348,Exception Reorganization for Python 3.0,Rejected
+0339,Design of the CPython Compiler,Withdrawn
+0334,Simple Coroutines via SuspendIteration,Withdrawn
+0321,Date/Time Parsing and Formatting,Withdrawn
+0332,Byte vectors and String/Unicode Unification,Rejected
+0330,Python Bytecode Verification,Rejected
+0329,Treating Builtins as Constants in the Standard Library,Rejected
+0314,Metadata for Python Software Packages 1.1,Superseded
+0326,A Case for Top and Bottom Values,Rejected
+0325,Resource-Release Support for Generators,Rejected
+0319,Python Synchronize/Asynchronize Block,Rejected
+0317,Eliminate Implicit Exception Instantiation,Rejected
+0298,The Locked Buffer Interface,Withdrawn
+0315,Enhanced While Loop,Rejected
+0313,Adding Roman Numeral Literals to Python,Rejected
+0310,Reliable Acquisition/Release Pairs,Rejected
+0306,How to Change Python’s Grammar,Withdrawn
+0303,Extend divmod() for Multiple Divisors,Rejected
+0304,Controlling Generation of Bytecode Files,Withdrawn
+0299,Special __main__() function in modules,Rejected
+0297,Support for System Upgrades,Rejected
+0276,Simple Iterator for ints,Rejected
+0296,Adding a bytes Object Type,Withdrawn
+0295,Interpretation of multiline string constants,Rejected
+0294,Type Names in the types Module,Rejected
+0291,Backward Compatibility for the Python 2 Standard Library,Superseded
+0288,Generators Attributes and Exceptions,Withdrawn
+0284,Integer for-loops,Rejected
+0281,Loop Counter Iteration with range and xrange,Rejected
+0259,Omit printing newline after newline,Rejected
+0275,Switching on Multiple Values,Rejected
+0271,Prefixing sys.path by command line option,Rejected
+0270,uniq method for list objects,Rejected
+0268,Extended HTTP functionality and WebDAV,Rejected
+0265,Sorting Dictionaries by Value,Rejected
+0266,Optimizing Global Variable/Attribute Access,Withdrawn
+0245,Python Interface Syntax,Rejected
+0262,A Database of Installed Python Packages,Rejected
+0258,Docutils Design Specification,Rejected
+0254,Making Classes Look More Like Types,Rejected
+0256,Docstring Processing System Framework,Rejected
+0228,Reworking Python’s Numeric Model,Withdrawn
+0241,Metadata for Python Software Packages,Superseded
+0243,Module Repository Upload Mechanism,Withdrawn
+0244,The,Rejected
+0242,Numeric Kinds,Withdrawn
+0240,Adding a Rational Literal to Python,Rejected
+0239,Adding a Rational Type to Python,Rejected
+0211,Adding A New Outer Product Operator,Rejected
+0231,__findattr__(),Rejected
+0220,"Coroutines, Generators, Continuations",Rejected
+0225,Elementwise/Objectwise Operators,Rejected
+0224,Attribute Docstrings,Rejected
+0216,Docstring Format,Withdrawn
+0215,String Interpolation,Superseded
+0212,Loop Counter Iteration,Rejected
+0102,Doing Python Micro Releases,Superseded
+0210,Decoupling the Interpreter Loop,Rejected
+0209,Multi-dimensional Arrays,Withdrawn
+0204,Range Literals,Rejected
+0103,Collecting information about git,Withdrawn
+0206,Python Advanced Library,Withdrawn
+0787,Safer subprocess usage using t-strings,Deferred
+0009,Sample Plaintext PEP Template,Withdrawn
+0042,Feature Requests,Withdrawn
+0003,Guidelines for Handling Bug Reports,Withdrawn
+3150,Statement local namespaces (aka “given” clause),Deferred
+3143,Standard daemon process library,Deferred
+0778,Supporting Symlinks in Wheels,Deferred
+0547,Running extension modules using the -m option,Deferred
+3124,"Overloading, Generic Functions, Interfaces, and Adaptation",Deferred
+0774,Removing the LLVM requirement for JIT builds,Deferred
+0674,Disallow using macros as l-values,Deferred
+0661,Sentinel Values,Deferred
+0556,Threaded garbage collection,Deferred
+0491,The Wheel Binary Package Format 1.9,Deferred
+0532,A circuit breaking protocol and binary operators,Deferred
+0534,Improved Errors for Missing Standard Library Modules,Deferred
+0499,,Deferred
+0533,Deterministic cleanup for iterators,Deferred
+0535,Rich comparison chaining,Deferred
+0505,None-aware operators,Deferred
+0568,Generator-sensitivity for Context Variables,Deferred
+0400,Deprecate codecs.StreamReader and codecs.StreamWriter,Deferred
+0447,Add __getdescriptor__ method to metaclass,Deferred
+0444,Python Web3 Interface,Deferred
+0419,Protecting cleanup statements from interruptions,Deferred
+0423,Naming conventions and recipes related to packaging,Deferred
+0407,New release cycle and introducing long-term support versions,Deferred
+0403,General purpose decorator clause (aka “@in” clause),Deferred
+0368,Standard image protocol and class,Deferred
+0337,Logging Usage in the Standard Library,Deferred
+0280,Optimizing access to globals,Deferred
+0323,Copyable Iterators,Deferred
+0316,Programming by Contract for Python,Deferred
+0312,Simple Implicit Lambda,Deferred
+0286,Enhanced Argument Tuples,Deferred
+0269,Pgen Module for Python,Deferred
+0233,Python Online Help,Deferred
+0267,Optimized Access to Module Namespaces,Deferred
+3100,Miscellaneous Python 3.0 Plans,Final
+0222,Web Library Enhancements,Deferred
+0219,Stackless Python,Deferred
+0213,Attribute Access Handlers,Deferred
+3099,Things that will Not Change in Python 3000,Final
+3003,Python Language Moratorium,Final
+3002,Procedure for Backwards-Incompatible Changes,Final
+3000,Python 3000,Final
+0541,Package Index Name Retention,Final
+0596,Python 3.9 Release Schedule,Final
+8001,Python Governance Voting Process,Final
+0569,Python 3.8 Release Schedule,Final
+0470,Removing External Hosting Support on PyPI,Final
+0581,Using GitHub Issues for CPython,Final
+0537,Python 3.7 Release Schedule,Final
+0494,Python 3.6 Release Schedule,Final
+0512,Migrating from hg.python.org to GitHub,Final
+0478,Python 3.5 Release Schedule,Final
+0464,Removal of the PyPI Mirror Authenticity API,Final
+0385,Migrating from Subversion to Mercurial,Final
+0438,Transitioning to release-file hosting on PyPI,Superseded
+0449,Removal of the PyPI Mirror Auto Discovery and Naming Scheme,Final
+0429,Python 3.4 Release Schedule,Final
+0404,Python 2.8 Un-release Schedule,Final
+0392,Python 3.2 Release Schedule,Final
+0398,Python 3.3 Release Schedule,Final
+0320,Python 2.4 Release Schedule,Final
+0375,Python 3.1 Release Schedule,Final
+0374,Choosing a distributed VCS for the Python project,Final
+0373,Python 2.7 Release Schedule,Final
+0361,Python 2.6 and 3.0 Release Schedule,Final
+0360,Externally Maintained Packages,Final
+0356,Python 2.5 Release Schedule,Final
+0347,Migrating the Python CVS to Subversion,Final
+0283,Python 2.3 Release Schedule,Final
+0005,Guidelines for Language Evolution,Superseded
+0226,Python 2.1 Release Schedule,Final
+0251,Python 2.2 Release Schedule,Final
+0200,Python 2.0 Release Schedule,Final
+0160,Python 1.6 Release Schedule,Final
+0006,Bug Fix Releases,Superseded
+3147,PYC Repository Directories,Final
+3155,Qualified name for classes and functions,Final
+3154,Pickle protocol version 4,Final
+3151,Reworking the OS and IO exception hierarchy,Final
+3156,Asynchronous IO Support Rebooted: the “asyncio” Module,Final
+3149,ABI version tagged .so files,Final
+3148,futures - execute computations asynchronously,Final
+3141,A Type Hierarchy for Numbers,Final
+3144,IP Address Manipulation Library for the Python Standard Library,Final
+3131,Supporting Non-ASCII Identifiers,Final
+3138,String representation in Python 3000,Final
+3137,Immutable Bytes and Mutable Buffer,Final
+3135,New Super,Final
+3134,Exception Chaining and Embedded Tracebacks,Final
+3132,Extended Iterable Unpacking,Final
+3116,New I/O,Final
+3123,Making PyObject_HEAD conform to standard C,Final
+3129,Class Decorators,Final
+3127,Integer Literal Support and Syntax,Final
+3121,Extension Module Initialization and Finalization,Final
+3120,Using UTF-8 as the default source encoding,Final
+3119,Introducing Abstract Base Classes,Final
+3118,Revising the buffer protocol,Final
+3114,Renaming iterator.next() to iterator.__next__(),Final
+3113,Removal of Tuple Parameter Unpacking,Final
+3115,Metaclasses in Python 3000,Final
+3108,Standard Library Reorganization,Final
+3112,Bytes literals in Python 3000,Final
+3110,Catching Exceptions in Python 3000,Final
+3111,Simple input built-in in Python 3000,Final
+3109,Raising Exceptions in Python 3000,Final
+3107,Function Annotations,Final
+3105,Make print a function,Final
+3106,"Revamping dict.keys(), .values() and .items()",Final
+3102,Keyword-Only Arguments,Final
+3104,Access to Names in Outer Scopes,Final
+0765,Disallow return/break/continue that exit a finally block,Final
+3101,Advanced String Formatting,Final
+0792,Project status markers in the simple index,Final
+0791,math.integer — submodule for integer-specific mathematics functions,Final
+0782,Add PyBytesWriter C API,Final
+0784,Adding Zstandard to the standard library,Final
+0779,Criteria for supported status for free-threaded Python,Final
+0768,Safe external debugger interface for CPython,Final
+0740,Index support for digital attestations,Final
+0758,Allow,Final
+0757,C API to import-export Python integers,Final
+0751,A file format to record Python dependencies for installation reproducibility,Final
+0749,Implementing PEP 649,Final
+0742,Narrowing types with TypeIs,Final
+0741,Python Configuration C API,Final
+0750,Template Strings,Final
+0715,Disabling bdist_egg distribution uploads on PyPI,Final
+0738,Adding Android as a supported platform,Final
+0737,C API to format a type fully qualified name,Final
+0735,Dependency Groups in pyproject.toml,Final
+0734,Multiple Interpreters in the Stdlib,Final
+0730,Adding iOS as a supported platform,Final
+0723,Inline script metadata,Final
+0698,Override Decorator for Static Typing,Final
+0721,Using tarfile.data_filter for source distribution extraction,Final
+0709,Inlined comprehensions,Final
+0706,Filter for tarfile.extractall,Final
+0705,TypedDict: Read-only items,Final
+0700,Additional Fields for the Simple API for Package Indexes,Final
+0697,Limited C API for Extending Opaque Types,Final
+0695,Type Parameter Syntax,Final
+0696,Type Defaults for Type Parameters,Final
+0692,Using TypedDict for more precise **kwargs typing,Final
+0683,"Immortal Objects, Using a Fixed Refcount",Final
+0689,Unstable C API tier,Final
+0688,Making the buffer protocol accessible in Python,Final
+0685,Comparison of extra names for optional distribution dependencies,Final
+0702,Marking deprecations using the type system,Final
+0682,Format Specifier for Signed Zero,Final
+0684,A Per-Interpreter GIL,Final
+0681,Data Class Transforms,Final
+0678,Enriching Exceptions with Notes,Final
+0680,tomllib: Support for Parsing TOML in the Standard Library,Final
+0669,Low Impact Monitoring for CPython,Final
+0675,Arbitrary Literal String Type,Final
+0654,Exception Groups and except*,Final
+0670,Convert macros to functions in the Python C API,Final
+0667,Consistent views of namespaces,Final
+0660,Editable installs for pyproject.toml based builds (wheel based),Final
+0656,Platform Tag for Linux Distributions Using Musl,Final
+0657,Include Fine Grained Error Locations in Tracebacks,Final
+0655,Marking individual TypedDict items as required or potentially-missing,Final
+0639,Improving License Clarity with Better Package Metadata,Final
+0647,User-Defined Type Guards,Final
+0649,Deferred Evaluation Of Annotations Using Descriptors,Final
+0652,Maintaining the Stable ABI,Final
+0646,Variadic Generics,Final
+0632,Deprecate distutils module,Final
+0643,Metadata for Package Source Distributions,Final
+0644,Require OpenSSL 1.1.1 or newer,Final
+0629,Versioning PyPI’s Simple API,Final
+0623,Remove wstr from Unicode,Final
+0634,Structural Pattern Matching: Specification,Final
+0618,Add Optional Length-Checking To zip,Final
+0673,Self Type,Final
+0627,Recording installed projects,Final
+0628,Add,Final
+0625,Filename of a Source Distribution,Final
+0624,Remove Py_UNICODE encoder APIs,Final
+0626,Precise line numbers for debugging and other tools.,Final
+0621,Storing project metadata in pyproject.toml,Final
+0604,Allow writing union types as,Final
+0617,New PEG parser for CPython,Final
+0600,Future ‘manylinux’ Platform Tags for Portable Linux Built Distributions,Final
+0616,String methods to remove prefixes and suffixes,Final
+0615,Support for the IANA Time Zone Database in the Standard Library,Final
+0614,Relaxing Grammar Restrictions On Decorators,Final
+0594,Removing dead batteries from the standard library,Final
+0613,Explicit Type Aliases,Final
+0610,Recording the Direct URL Origin of installed distributions,Final
+0612,Parameter Specification Variables,Final
+0587,Python Initialization Configuration,Final
+0597,Add optional EncodingWarning,Final
+0593,Flexible function and variable annotations,Final
+0591,Adding a final qualifier to typing,Final
+0592,Adding “Yank” Support to the Simple API,Final
+0590,Vectorcall: a fast calling protocol for CPython,Final
+0586,Literal Types,Final
+0589,TypedDict: Type Hints for Dictionaries with a Fixed Set of Keys,Final
+0585,Type Hinting Generics In Standard Collections,Final
+0570,Python Positional-Only Parameters,Final
+0584,Add Union Operators To dict,Final
+0578,Python Runtime Audit Hooks,Final
+0573,Module State Access from C Extension Methods,Final
+0574,Pickle protocol 5 with out-of-band data,Final
+0567,Context Variables,Final
+0572,Assignment Expressions,Final
+0557,Data Classes,Final
+0566,Metadata for Python Software Packages 2.1,Final
+0564,Add new time functions with nanosecond resolution,Final
+0565,Show DeprecationWarning in __main__,Final
+0562,Module __getattr__ and __dir__,Final
+0561,Distributing and Packaging Type Information,Final
+0560,Core support for typing module and generic types,Final
+0553,Built-in breakpoint(),Final
+0552,Deterministic pycs,Final
+0529,Change Windows filesystem encoding to UTF-8,Final
+0540,Add a new UTF-8 Mode,Final
+0539,A New C-API for Thread-Local Storage in CPython,Final
+0544,Protocols: Structural subtyping (static duck typing),Final
+0538,Coercing the legacy C locale to a UTF-8 based locale,Final
+0530,Asynchronous Comprehensions,Final
+0528,Change Windows console encoding to UTF-8,Final
+0519,Adding a file system path protocol,Final
+0527,Removing Un(der)used file types/extensions on PyPI,Final
+0526,Syntax for Variable Annotations,Final
+0525,Asynchronous Generators,Final
+0524,Make os.urandom() blocking on Linux,Final
+0523,Adding a frame evaluation API to CPython,Final
+0498,Literal String Interpolation,Final
+0520,Preserving Class Attribute Definition Order,Final
+0518,Specifying Minimum Build System Requirements for Python Projects,Final
+0517,A build-system independent format for source trees,Final
+0515,Underscores in Numeric Literals,Final
+0508,Dependency specification for Python Software Packages,Final
+0506,Adding A Secrets Module To The Standard Library,Final
+0503,Simple Repository API,Final
+0495,Local Time Disambiguation,Final
+0485,A Function for testing approximate equality,Final
+0493,HTTPS verification migration tools for Python 2.7,Final
+0492,Coroutines with async and await syntax,Final
+0488,Elimination of PYO files,Final
+0489,Multi-phase extension module initialization,Final
+0487,Simpler customisation of class creation,Final
+0486,Make the Python Launcher aware of virtual environments,Final
+0466,Network Security Enhancements for Python 2.7.x,Final
+0484,Type Hints,Final
+0479,Change StopIteration handling inside generators,Final
+0477,Backport ensurepip (PEP 453) to Python 2.7,Final
+0476,Enabling certificate verification by default for stdlib http clients,Final
+0475,Retry system calls failing with EINTR,Final
+0471,os.scandir() function – a better and faster directory iterator,Final
+0468,Preserving the order of **kwargs in a function.,Final
+0448,Additional Unpacking Generalizations,Final
+0465,A dedicated infix operator for matrix multiplication,Final
+0456,Secure and interchangeable hash algorithm,Final
+0461,Adding % formatting to bytes and bytearray,Final
+0454,Add a new tracemalloc module to trace Python memory allocations,Final
+0453,Explicit bootstrapping of pip in Python installations,Final
+0451,A ModuleSpec Type for the Import System,Final
+0450,Adding A Statistics Module To The Standard Library,Final
+0440,Version Identification and Dependency Specification,Final
+0436,The Argument Clinic DSL,Final
+0446,Make newly created file descriptors non-inheritable,Final
+0445,Add new APIs to customize Python memory allocators,Final
+0443,Single-dispatch generic functions,Final
+0442,Safe object finalization,Final
+0441,Improving Python ZIP Application Support,Final
+0428,The pathlib module – object-oriented filesystem paths,Final
+0435,Adding an Enum type to the Python standard library,Final
+0427,The Wheel Binary Package Format 1.0,Final
+0417,Including mock in the Standard Library,Final
+0425,Compatibility Tags for Built Distributions,Final
+0421,Adding sys.implementation,Final
+0420,Implicit Namespace Packages,Final
+0424,A method for exposing a length hint,Final
+0393,Flexible String Representation,Final
+0415,Implement context suppression with exception attributes,Final
+0418,"Add monotonic time, performance counter, and process time functions",Final
+0414,Explicit Unicode Literal for Python 3.3,Final
+0412,Key-Sharing Dictionary,Final
+0409,Suppressing exception context,Final
+0397,Python launcher for Windows,Final
+0405,Python Virtual Environments,Final
+0391,Dictionary-Based Configuration For Logging,Final
+0376,Database of Installed Python Distributions,Final
+0389,argparse - New Command Line Parsing Module,Final
+0384,Defining a Stable ABI,Final
+0383,Non-decodable Bytes in System Character Interfaces,Final
+0380,Syntax for Delegating to a Subgenerator,Final
+0372,Adding an ordered dictionary to collections,Final
+0378,Format Specifier for Thousands Separator,Final
+0370,Per user site-packages directory,Final
+0371,Addition of the multiprocessing package to the standard library,Final
+0353,Using ssize_t as the index type,Final
+0366,Main module explicit relative imports,Final
+0362,Function Signature Object,Final
+0358,The “bytes” Object,Final
+0352,Required Superclass for Exceptions,Final
+0357,Allowing Any Object to be Used for Slicing,Final
+0342,Coroutines via Enhanced Generators,Final
+0343,The “with” Statement,Final
+0338,Executing modules as scripts,Final
+0341,Unifying try-except and try-finally,Final
+0311,Simplified Global Interpreter Lock Acquisition for Extensions,Final
+0331,Locale-Independent Float/String Conversions,Final
+0328,Imports: Multi-Line and Absolute/Relative,Final
+0318,Decorators for Functions and Methods,Final
+0322,Reverse Iteration,Final
+0309,Partial Function Application,Final
+0308,Conditional Expressions,Final
+0307,Extensions to the pickle protocol,Final
+0305,CSV File API,Final
+0292,Simpler String Substitutions,Final
+0324,subprocess - New process module,Final
+0301,Package Index and Metadata for Distutils,Final
+0302,New Import Hooks,Final
+0293,Codec Error Handling Callbacks,Final
+0285,Adding a bool type,Final
+0289,Generator Expressions,Final
+0273,Import Modules from Zip Archives,Final
+0327,Decimal Data Type,Final
+0282,A Logging System,Final
+0278,Universal Newline Support,Final
+0279,The enumerate() built-in function,Final
+0277,Unicode file name support for Windows NT,Final
+0274,Dict Comprehensions,Final
+0264,Future statements in simulated shells,Final
+0250,Using site-packages on Windows,Final
+0263,Defining Python Source Code Encodings,Final
+0261,Support for “wide” Unicode characters,Final
+0260,Simplify xrange(),Final
+0255,Simple Generators,Final
+0253,Subtyping Built-in Types,Final
+0252,Making Types Look More Like Classes,Final
+0230,Warning Framework,Final
+0238,Changing the Division Operator,Final
+0237,Unifying Long Integers and Integers,Final
+0236,Back to the __future__,Final
+0234,Iterators,Final
+0235,Import on Case-Insensitive Platforms,Final
+0232,Function Attributes,Final
+0229,Using Distutils to Build Python,Final
+0208,Reworking the Coercion Model,Final
+0221,Import As,Final
+0223,Change the Meaning of,Final
+0218,Adding a Built-In Set Object Type,Final
+0227,Statically Nested Scopes,Final
+0217,Display Hook for Interactive Use,Final
+0214,Extended Print Statement,Final
+0100,Python Unicode Integration,Final
+0207,Rich Comparisons,Final
+0205,Weak References,Final
+0203,Augmented Assignments,Final
+0202,List Comprehensions,Final
+0201,Lockstep Iteration,Final
+0822,Dedented Multiline String (d-string),Draft
+0819,JSON Package Metadata,Draft
+0807,Index support for Trusted Publishing,Draft
+0820,PySlot: Unified slot system for the C API,Draft
+0816,WASI Support,Draft
+0814,Add frozendict built-in type,Draft
+0815,Deprecate,Draft
+0809,Stable ABI for the Future,Draft
+0808,Including static values in dynamic project metadata,Draft
+0785,New methods for easier handling of,Draft
+0806,Mixed sync/async context managers with precise async marking,Draft
+0804,An external dependency registry and name mapping mechanism,Draft
+0803,Stable ABI for Free-Threaded Builds,Draft
+0802,Display Syntax for the Empty Set,Draft
+0789,Preventing task-cancellation bugs by limiting yield in async generators,Draft
+0800,Disjoint bases in the type system,Draft
+0788,Protecting the C API from Interpreter Finalization,Draft
+0771,Default Extras for Python Software Packages,Draft
+0783,Emscripten Packaging,Draft
+0781,Make,Draft
+0780,ABI features as environment markers,Draft
+0777,How to Re-invent the Wheel,Draft
+0776,Emscripten Support,Draft
+0772,Packaging Council governance process,Draft
+0747,Annotating Type Forms,Draft
+0766,Explicit Priority Choices Among Multiple Indexes,Draft
+0764,Inline typed dictionaries,Draft
+0755,Implicit namespace policy for PyPI,Draft
+0752,Implicit namespaces for package repositories,Draft
+0767,Annotating Read-Only Attributes,Draft
+0748,A Unified TLS API for Python,Draft
+0746,Type checking Annotated metadata,Draft
+0744,JIT Compilation,Draft
+0743,Add Py_OMIT_LEGACY_API to the Python C API,Draft
+0718,Subscriptable functions,Draft
+0720,Cross-compiling Python packages,Draft
+0725,Specifying external dependencies in pyproject.toml,Draft
+0653,Precise Semantics for Pattern Matching,Draft
+0711,PyBI: a standard format for distributing Python Binaries,Draft
+0710,Recording the provenance of installed packages,Draft
+0694,Upload 2.0 API for Python Package Indexes,Draft
+0671,Syntax for late-bound function argument defaults,Draft
+0794,Import Name Metadata,Accepted
+0638,Syntactic Macros,Draft
+0480,Surviving a Compromise of PyPI: End-to-end signing of packages,Draft
+0467,Minor API improvements for binary sequences,Draft
+0603,Adding a frozenmap type to collections,Draft
+0810,Explicit lazy imports,Accepted
+0799,A dedicated,Accepted
+0798,Unpacking in Comprehensions,Accepted
+0703,Making the Global Interpreter Lock Optional in CPython,Accepted
+0793,PyModExport: A new entry point for C extension modules,Accepted
+0773,A Python Installation Manager for Windows,Accepted
+0739,,Accepted
+0770,Improving measurability of Python packages with Software Bill-of-Materials,Accepted
+0728,TypedDict with Typed Extra Items,Accepted
+0753,Uniform project URLs in core metadata,Accepted
+0714,Rename dist-info-metadata in the Simple API,Accepted
+0458,Secure PyPI downloads with signed repository metadata,Accepted
+0701,Syntactic formalization of f-strings,Accepted
+0699,Remove private dict version field added in PEP 509,Accepted
+0691,JSON-based Simple API for Python Package Indexes,Accepted
+0687,Isolating modules in the standard library,Accepted
+0668,Marking Python base environments as “externally managed”,Accepted
+0686,Make UTF-8 mode default,Accepted
+0658,Serve Distribution Metadata in the Simple Repository API,Accepted
+8101,2020 Term Steering Council election,Final
+0708,Extending the Repository API to Mitigate Dependency Confusion Attacks,Provisional
+8106,2025 Term Steering Council election,Final
+8107,2026 Term Steering Council election,Final
+8105,2024 Term Steering Council election,Final
+8102,2021 Term Steering Council election,Final
+8103,2022 Term Steering Council election,Final
+8104,2023 Term Steering Council election,Final
+8100,January 2019 Steering Council election,Final
+0745,Python 3.14 Release Schedule,Active
+8016,The Steering Council Model,Accepted
+8002,Open Source Governance Survey,Final
+8000,Python Language Governance Proposal Overview,Final
+0719,Python 3.13 Release Schedule,Active
+3333,Python Web Server Gateway Interface v1.0.1,Final
+0693,Python 3.12 Release Schedule,Active
+0790,Python 3.15 Release Schedule,Active
+0762,REPL-acing the default REPL,Final
+0801,Reserved,Active
+0659,Specializing Adaptive Interpreter,Final
+0630,Isolating Extension Modules,Final
+0257,Docstring Conventions,Active
+0733,An Evaluation of Python’s Public C API,Final
+0672,Unicode-related Security Considerations for Python,Active
+0664,Python 3.11 Release Schedule,Active
+0636,Structural Pattern Matching: Tutorial,Final
+0635,Structural Pattern Matching: Motivation and Rationale,Final
+0607,Reducing CPython’s Feature Delivery Latency,Final
+0619,Python 3.10 Release Schedule,Active
+0811,Defining Python Security Response Team membership and responsibilities,Accepted
+0249,Python Database API Specification v2.0,Final
+0248,Python Database API Specification v1.0,Final
+0247,API for Cryptographic Hash Functions,Final
+0020,The Zen of Python,Active
+0101,Doing Python Releases 101,Active
+0602,Annual Release Cycle for Python,Active
+0732,The Python Documentation Editorial Board,Active
+0761,Deprecating PGP signatures for CPython artifacts,Active
+0731,C API Working Group Charter,Active
+0729,Typing governance process,Active
+0676,PEP Infrastructure Process,Active
+0008,Style Guide for Python Code,Active
+0609,Python Packaging Authority (PyPA) Governance,Active
+0545,Python Documentation Translations,Active
+0007,Style Guide for C Code,Active
+0387,Backwards Compatibility Policy,Active
+0013,Python Language Governance,Active
+0012,Sample reStructuredText PEP Template,Active
+0011,CPython platform support,Active
+0010,Voting Guidelines,Active
+0004,Deprecation of Standard Modules,Active
+0002,Procedure for Adding New Modules,Active
