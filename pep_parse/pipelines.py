@@ -6,7 +6,8 @@ from pathlib import Path
 
 class PepParsePipeline:
     def __init__(self):
-        pass
+        self.results_dir = Path(__file__).parent.parent / 'results'
+        self.results_dir.mkdir(exist_ok=True)
 
     def open_spider(self, spider):
         self.statuss = defaultdict(int)
