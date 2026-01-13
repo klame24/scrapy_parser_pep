@@ -1,9 +1,10 @@
 from pathlib import Path
 
+RESULTS = "results"
 
 BOT_NAME = 'pep_parse'
-SPIDER_MODULES = ['pep_parse.spiders']
-NEWSPIDER_MODULE = 'pep_parse.spiders'
+SPIDER_MODULES = [f'{BOT_NAME}.spiders']
+NEWSPIDER_MODULE = f'{BOT_NAME}.spiders'
 
 ROBOTSTXT_OBEY = True
 
@@ -14,7 +15,7 @@ FEED_EXPORT_ENCODING = 'utf-8'
 BASE_DIR = Path(__file__).parent.parent
 
 FEEDS = {
-    'results/pep_%(time)s.csv': {
+    f'{RESULTS}/pep_%(time)s.csv': {
         'format': 'csv',
         'fields': ['number', 'name', 'status'],
         'overwrite': True
