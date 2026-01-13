@@ -19,17 +19,9 @@ class PepParsePipeline:
         return item
 
     def close_spider(self, spider):
-        csv_files = list(Path('.').glob('**/*.csv'))
-
-        if csv_files:
-            results_dir = csv_files[0].parent
-        else:
-            results_dir = Path('results')
-            results_dir.mkdir(exist_ok=True)
-
         timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
         filename = f'status_summary_{timestamp}.csv'
-        file_path = results_dir / filename
+        file_path = self.results_dir / filename
 
         with open(file_path, 'w', encoding='utf-8') as f:
             writer = csv.writer(f)
