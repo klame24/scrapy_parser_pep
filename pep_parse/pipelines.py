@@ -1,29 +1,16 @@
 import csv
 from collections import defaultdict
 from datetime import datetime
-from pathlib import Path
-
-from pep_parse.settings import RESULTS
+from pep_parse.settings import RESULTS, BASE_DIR
 
 
 class PepParsePipeline:
     def __init__(self):
-        self.results_dir = Path(RESULTS)
+        self.results_dir = BASE_DIR / RESULTS
         self.results_dir.mkdir(exist_ok=True)
-        self.status_count = None
 
     def open_spider(self, spider):
         self.status_count = defaultdict(int)
-
-        feeds = spider.crawler.settings.getdict('FEEDS', {})
-
-        for feed_path in feeds.keys():
-            if isinstance(feed_path, (str, Path)):
-                feed_path_obj = Path(
-                    feed_path) if isinstance(feed_path, str) else feed_path
-                if feed_path_obj.parent.name == RESULTS:
-                    self.results_dir = feed_path_obj.parent
-                    break
 
     def process_item(self, item, spider):
         status = item.get('status')

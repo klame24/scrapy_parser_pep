@@ -3,8 +3,8 @@ from pathlib import Path
 RESULTS = "results"
 
 BOT_NAME = 'pep_parse'
-SPIDER_MODULES = [f'{BOT_NAME}.spiders']
 NEWSPIDER_MODULE = f'{BOT_NAME}.spiders'
+SPIDER_MODULES = [NEWSPIDER_MODULE]
 
 ROBOTSTXT_OBEY = True
 
